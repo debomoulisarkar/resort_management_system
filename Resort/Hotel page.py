@@ -1,0 +1,92 @@
+import tkinter as tk
+from tkinter import *
+from tkinter import messagebox
+
+#to create opening window
+display=Tk()
+display.title('Hotel Page')
+display.geometry('925x500+300+200')
+display.configure(bg='#fff')
+display.resizable(False,False)
+
+#inserting an image
+img1=PhotoImage(file='hotel page.png')
+Label(display,image=img1,border=0).place(x=0,y=0)
+
+#inserting a frame for the icons
+frame1=Frame(display,width=250,height=150,bg='white')
+frame1.place(x=30,y=60)
+hotel_1=PhotoImage(file='hotel 1.png')
+hotel1=Button(frame1,image=hotel_1,bg='white',bd=0)
+hotel1.place(x=-30,y=-20)
+frame_1=Frame(display,width=180,height=100,bg='white')
+frame_1.place(x=280,y=80)
+label1=Label(frame_1,text="Borcelle Resorts",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label1.place(x=0,y=0)
+label2=Label(frame_1,text="Bangalore",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label2.place(x=0,y=20)
+label3=Label(frame_1,text="Customer Care: 9652365592",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label3.place(x=0,y=40)
+label4=Label(frame_1,text="21/6 Marriem Lane,Bangalore-560012",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label4.place(x=0,y=60)
+label5=Label(frame_1,text="Reviews:*****",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label5.place(x=0,y=80)
+#################################################################################################
+
+frame2=Frame(display,width=250,height=150,bg='white')
+frame2.place(x=30,y=250)
+hotel_2=PhotoImage(file='hotel 2.png')
+hotel2=Button(frame2,image=hotel_2,bg='white',bd=0)
+hotel2.place(x=-35,y=-20)
+frame_2=Frame(display,width=180,height=100,bg='white')
+frame_2.place(x=730,y=80)
+label1=Label(frame_2,text="Lenora's Resorts",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label1.place(x=0,y=0)
+label2=Label(frame_2,text="Chennai",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label2.place(x=0,y=20)
+label3=Label(frame_2,text="Customer Care: 9467613592",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label3.place(x=0,y=40)
+label4=Label(frame_2,text="13/4 Kuriyem Street,Chennai-600009",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label4.place(x=0,y=60)
+label5=Label(frame_2,text="Reviews:****",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label5.place(x=0,y=80)
+#################################################################################################
+
+frame3=Frame(display,width=250,height=150,bg='white')
+frame3.place(x=480,y=60)
+hotel_3=PhotoImage(file='hotel 3.png')
+hotel3=Button(frame3,image=hotel_3,bg='white',bd=0)
+hotel3.place(x=-35,y=-17)
+frame_3=Frame(display,width=180,height=100,bg='white')
+frame_3.place(x=280,y=275)
+label1=Label(frame_3,text="Kallidan Normann Resorts",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label1.place(x=0,y=0)
+label2=Label(frame_3,text="Kolkata",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label2.place(x=0,y=20)
+label3=Label(frame_3,text="Customer Care: 9892665359",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label3.place(x=0,y=40)
+label4=Label(frame_3,text="7/1 Chatterjee Lane,Kolkata-700012",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label4.place(x=0,y=60)
+label5=Label(frame_3,text="Reviews:*****",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label5.place(x=0,y=80)
+#################################################################################################
+
+frame4=Frame(display,width=250,height=150,bg='white')
+frame4.place(x=480,y=250)
+hotel_4=PhotoImage(file='hotel 4.png')
+hotel4=Button(frame4,image=hotel_4,bg='white',bd=0)
+hotel4.place(x=-35,y=-17)
+frame_4=Frame(display,width=180,height=100,bg='white')
+frame_4.place(x=730,y=275)
+label1=Label(frame_4,text="Margot Roberts Resorts",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label1.place(x=0,y=0)
+label2=Label(frame_4,text="Dehradun",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label2.place(x=0,y=20)
+label3=Label(frame_4,text="Customer Care: 9875663556",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label3.place(x=0,y=40)
+label4=Label(frame_4,text="13/4 Minchem Lane,Dehradun-248012",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label4.place(x=0,y=60)
+label5=Label(frame_4,text="Reviews:*****",fg='black',bg='white',font=('Microsoft YaHei UI Light',7))
+label5.place(x=0,y=80)
+#################################################################################################
+

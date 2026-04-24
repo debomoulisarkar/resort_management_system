@@ -1,0 +1,12 @@
+create database resort;
+use resort;
+show tables;
+create table customer_signup (Customer_ID integer primary key, Passwd varchar(20), Phone varchar(10), Mail varchar(50));
+create table Hotels (Hotel_ID integer primary key, Hotel_Name varchar(50), City varchar(20), Contacts varchar(10));
+create table Bookings (Booking_ID integer, Hotel_ID integer, Customer_ID integer, Check_in date, Check_out date);
+select * from Pool;
+drop table Pool;
+insert into Hotels values(4, 'Margot Roberts Resorts', 'Dehradun', '9875663556');
+create table Billings (Booking_ID integer, Hotel_ID integer, Pool integer, Gym integer, Sauna integer, Transport integer, Parking Integer, Medical integer, Room integer );
+create table Pool(Hotel_ID integer, Number_of_People integer, Number_of_days integer);
+create table Gym(Hotel_ID integer, Number_of_People integer, Number_of_days integer);
